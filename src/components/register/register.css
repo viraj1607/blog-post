@@ -1,0 +1,39 @@
+.register-container {
+  margin: 50px auto;
+}
+
+.register-container .form {
+  padding: 10px 20px;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 24px gray;
+  border-radius: 15px;
+}
+
+.form h3 {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.form .input {
+  width: 100%;
+  margin: 12px 0;
+}
+
+.form .btn {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.form span {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .register-container .form {
+    width: 80%;
+    margin-top: 100px;
+  }
+}
